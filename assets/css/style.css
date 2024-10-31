@@ -1,0 +1,59 @@
+/**
+* 1.0 SendToSMS
+*/
+
+/* Icon and Text */
+.sd-social-icon .sd-content ul li.share-sendtosms a:before,
+.sd-social-text .sd-content ul li.share-sendtosms a:before,
+.sd-content ul li.share-sendtosms div.option.option-smart-off a:before,
+.sd-social-icon-text .sd-content li.share-sendtosms a:before,
+li.service.share-sendtosms span:before {
+	content:" ";
+	background-image:url("../images/SMSIcon_share_sm_gray.png");
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:16px 16px;
+	height:16px;
+	width:16px;
+}
+
+/* Text only */
+.sd-social-icon .sd-content ul li.share-sendtosms a:before {
+	background:none !important;
+	border: none;
+}
+
+/* Icon only */
+.sd-social-icon .sd-content ul li[class*="share-"].share-sendtosms a.sd-button {
+	background-color:#d94c28;
+	background-image:url("../images/SMSIcon_share_sm_white.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:20px 20px;
+	border: none;
+}
+
+.sd-social-icon .sd-content ul li[class*="share-"].share-sendtosms a.sd-button span {
+	display: none;
+}
+
+/* Official Button (Admin Preview) */
+.preview-sendtosms .option-smart-on {
+	height:20px;
+	width: 69px;
+	background-image: url("../images/SMSIcon_share.png");
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: 69px 20px;
+}
+
+/* Official Button */
+.sd-social-official .sd-content li.share-sendtosms .sendtosms_button {
+	line-height:20px;
+	height: 20px;
+	width: 69px;
+	overflow: hidden;
+	display: inline-block;
+	border: none;
+}
+
